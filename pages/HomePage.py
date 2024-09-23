@@ -29,7 +29,7 @@ class Page(BasePage):
         self.label_profesor = ctk.CTkLabel(self, text="Profesor: Ing. Llamozas Escalante, Freeman Hugo", font=label_font_normal, text_color=label_color)
         self.label_profesor.grid(row=3, column=0, padx=10, pady=2, sticky="n")
 
-        self.label_grupo = ctk.CTkLabel(self, text="Equipo: 2", font=label_font_normal, text_color=label_color)
+        self.label_grupo = ctk.CTkLabel(self, text="Grupo 1", font=label_font_normal, text_color=label_color)
         self.label_grupo.grid(row=4, column=0, padx=10, pady=2, sticky="n")
         
         # Label de integrantes
