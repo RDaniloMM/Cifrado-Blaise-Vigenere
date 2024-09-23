@@ -1,6 +1,5 @@
 import customtkinter as ctk
 from tkinter import filedialog, messagebox
-# componets
 from components.BasePage import BasePage
 
 from lib.file_management import leer_archivo, escribir_archivo

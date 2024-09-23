@@ -6,10 +6,9 @@ class BasePage(ctk.CTkFrame):
         super().__init__(parent)
         self.grid(row=0, column=0, sticky="nsew")
         
-        # Asegurar que el contenido esté anclado en la parte superior
-        self.grid_rowconfigure(0, weight=0)  # No permitir que se expanda
+        self.grid_rowconfigure(0, weight=0)
         self.grid_rowconfigure(1, weight=0)
-        self.grid_rowconfigure(2, weight=1)  # Esto permite que los elementos de abajo se expandan
+        self.grid_rowconfigure(2, weight=1)
         self.grid_columnconfigure(0, weight=1)
 
         # Título y descripción anclados en la parte superior
