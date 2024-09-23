@@ -2,6 +2,7 @@
 ALFABETOS = {
     "Alfabeto Español": "ABCDEFGHIJKLMNÑOPQRSTUVWXYZÁÉÍÓÚabcdefghijklmnñopqrstuvwxyzáéíóú.?¿¡!,+-*/_\"\n\\|@#$%&()=[]{}`^~;:<>",
     "Alfabeto Inglés": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:!?()\"' ",
+    "Alfabeto Clásico": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
 }
 
 # Funciones del cifrado de Vigenère actualizadas
